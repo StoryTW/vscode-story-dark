@@ -1,0 +1,48 @@
+{
+  "name": "story-dark",
+  "displayName": "Story Dark",
+  "description": "A dark VS Code theme with warm yellow strings, green functions, and blue type names.",
+  "version": "0.1.0",
+  "publisher": "StoryTW",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.143.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "story"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#21252B",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StoryTW/vscode-story-dark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StoryTW/vscode-story-dark/issues"
+  },
+  "homepage": "https://github.com/StoryTW/vscode-story-dark#readme",
+  "scripts": {
+    "package": "vsce package --no-dependencies"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Story Dark",
+        "label": "Story Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Story-Dark-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.1.0"
+  }
+}
