@@ -1,8 +1,8 @@
 {
   "name": "story-dark",
-  "displayName": "Story Dark",
-  "description": "A dark VS Code theme with warm yellow strings, green functions, and blue type names.",
-  "version": "0.1.1",
+  "displayName": "Story Dark Theme",
+  "description": "A dark theme for VS Code inspired by the styles of One Monokai and One Dark Pro.",
+  "version": "1.0.0",
   "publisher": "StoryTW",
   "license": "MIT",
   "engines": {
@@ -36,7 +36,7 @@
     "themes": [
       {
         "id": "Story Dark",
-        "label": "Story Dark",
+        "label": "Story Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Story-Dark-color-theme.json"
       }

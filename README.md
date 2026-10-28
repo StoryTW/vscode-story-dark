@@ -1,7 +1,6 @@
-# Story Dark
+# Story Dark Theme
 
-A dark color theme for Visual Studio Code with warm yellow strings, green
-functions, blue classes, cyan constants, and italic function parameters.
+A dark theme for VS Code inspired by the styles of One Monokai and One Dark Pro.
 
 Supports VS Code 1.143 and later. Includes TextMate syntax colors,
 a full ANSI terminal palette, and colors for Git, diffs, inline
@@ -9,19 +8,19 @@ hints, sticky scroll, chat, agent sessions, notebooks, and testing.
 
 ## Install from Marketplace
 
-In VS Code, open Extensions, search for **Story Dark** by **StoryTW**, install it,
-and choose **Story Dark** from **Preferences: Color Theme**.
+In VS Code, open Extensions, search for **Story Dark Theme** by **StoryTW**, install it,
+and choose **Story Dark Theme** from **Preferences: Color Theme**.
 
 ## Install locally
 
-1. Download or build `story-dark-0.1.1.vsix`.
+1. Download or build `story-dark-1.0.0.vsix`.
 2. In VS Code, run **Extensions: Install from VSIX...** and select the file.
-3. Run **Preferences: Color Theme** and select **Story Dark**.
+3. Run **Preferences: Color Theme** and select **Story Dark Theme**.
 
 ## Preview and develop
 
 Open this folder in VS Code and press **F5** to launch the **Preview Story Dark**
-configuration. In the Extension Development Host, select **Story Dark** from the
+configuration. In the Extension Development Host, select **Story Dark Theme** from the
 color theme picker. Changes to the theme JSON are applied live.
 
 The theme lives in `themes/Story-Dark-color-theme.json`. `color.scss` documents
