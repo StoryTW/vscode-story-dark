@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 — 2026-10-29
+
+- Package the current theme colors and syntax rules for the Marketplace update.
+- Include the 512×512 Marketplace icon.
+
 ## 0.1.0 — 2026-10-29
 
 - Package Story Dark as a declarative VS Code color theme.

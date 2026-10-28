@@ -14,7 +14,7 @@ and choose **Story Dark** from **Preferences: Color Theme**.
 
 ## Install locally
 
-1. Download or build `story-dark-0.1.0.vsix`.
+1. Download or build `story-dark-0.1.1.vsix`.
 2. In VS Code, run **Extensions: Install from VSIX...** and select the file.
 3. Run **Preferences: Color Theme** and select **Story Dark**.
 

@@ -2,7 +2,7 @@
   "name": "story-dark",
   "displayName": "Story Dark",
   "description": "A dark VS Code theme with warm yellow strings, green functions, and blue type names.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "StoryTW",
   "license": "MIT",
   "engines": {
