@@ -11,11 +11,16 @@
     "activityBarTop.activeBorder": "#528BFF",
     "activityBarTop.foreground": "#D7DAE0",
     "activityBarTop.inactiveForeground": "#9DA5B4",
-    "agents.background": "#181A1F",
-    "agentsCard.border": "#3E4451",
-    "agentsPanel.background": "#21252B",
-    "agentsPanel.border": "#3E4451",
-    "agentsPanel.foreground": "#ABB2BF",
+    "agents.background": "#181818",
+    "agentsCard.border": "#333333",
+    "agentsChatInput.background": "#212121",
+    "agentsChatInput.border": "#3A3A3A",
+    "agentsChatInput.focusBorder": "#339CFF",
+    "agentsChatInput.foreground": "#FFFFFF",
+    "agentsChatInput.placeholderForeground": "#A0A0A0",
+    "agentsPanel.background": "#181818",
+    "agentsPanel.border": "#333333",
+    "agentsPanel.foreground": "#FFFFFF",
     "badge.background": "#3E4451",
     "badge.foreground": "#D7DAE0",
     "breadcrumb.activeSelectionForeground": "#61AFEF",
@@ -27,13 +32,20 @@
     "button.secondaryBackground": "#3E4451",
     "button.secondaryForeground": "#D7DAE0",
     "button.secondaryHoverBackground": "#495162",
-    "chat.linesAddedForeground": "#98C379",
-    "chat.linesRemovedForeground": "#E06C75",
-    "chat.requestBackground": "#2C313A",
-    "chat.requestBorder": "#3E4451",
-    "chat.requestCodeBorder": "#3E4451",
-    "chat.slashCommandBackground": "#528BFF26",
-    "chat.slashCommandForeground": "#61AFEF",
+    "chat.avatarBackground": "#212121",
+    "chat.avatarForeground": "#FFFFFF",
+    "chat.checkpointSeparator": "#333333",
+    "chat.editedFileForeground": "#339CFF",
+    "chat.linesAddedForeground": "#34D399",
+    "chat.linesRemovedForeground": "#F87171",
+    "chat.requestBackground": "#2F2F2F",
+    "chat.requestBorder": "#3A3A3A",
+    "chat.requestBubbleBackground": "#2F2F2F",
+    "chat.requestBubbleHoverBackground": "#383838",
+    "chat.requestCodeBorder": "#424242",
+    "chat.slashCommandBackground": "#339CFF26",
+    "chat.slashCommandForeground": "#339CFF",
+    "chat.thinkingShimmer": "#A0A0A0",
     "checkbox.background": "#1D1F23",
     "checkbox.border": "#495162",
     "checkbox.foreground": "#ABB2BF",
@@ -70,7 +82,8 @@
     "editorBracketHighlight.foreground3": "#179FFF",
     "editorBracketHighlight.foreground4": "#00000000",
     "editorBracketHighlight.foreground5": "#00000000",
-    "editorBracketHighlight.foreground6": "#00000000","editorBracketMatch.background": "#528BFF26",
+    "editorBracketHighlight.foreground6": "#00000000",
+    "editorBracketMatch.background": "#528BFF26",
     "editorBracketMatch.border": "#636D83",
     "editorBracketPairGuide.activeBackground1": "#E5C07B80",
     "editorBracketPairGuide.activeBackground2": "#C678DD80",
@@ -131,14 +144,15 @@
     "gitDecoration.modifiedResourceForeground": "#E5C07B",
     "gitDecoration.untrackedResourceForeground": "#98C379",
     "icon.foreground": "#ABB2BF",
-    "inlineChat.background": "#21252B",
-    "inlineChat.border": "#495162",
-    "inlineChat.foreground": "#ABB2BF",
-    "inlineChatDiff.inserted": "#98C37926",
-    "inlineChatDiff.removed": "#E06C7526",
-    "inlineChatInput.background": "#1D1F23",
-    "inlineChatInput.border": "#495162",
-    "inlineChatInput.focusBorder": "#528BFF",
+    "inlineChat.background": "#181818",
+    "inlineChat.border": "#333333",
+    "inlineChat.foreground": "#FFFFFF",
+    "inlineChatDiff.inserted": "#34D39926",
+    "inlineChatDiff.removed": "#F8717126",
+    "inlineChatInput.background": "#212121",
+    "inlineChatInput.border": "#3A3A3A",
+    "inlineChatInput.focusBorder": "#339CFF",
+    "inlineChatInput.placeholderForeground": "#A0A0A0",
     "inlineEdit.modifiedBackground": "#98C37912",
     "inlineEdit.modifiedBorder": "#98C379",
     "inlineEdit.originalBackground": "#E06C7512",
@@ -492,9 +506,7 @@
       "name": "Builtin Functions",
       "scope": [
         "function.support.builtin",
-        "function.support.core",
-        "support.function.builtin",
-        "support.function.core"
+        "function.support.core"
       ],
       "settings": {
         "foreground": "#98C379"
@@ -550,9 +562,7 @@
         "support.type.property-name.css",
         "support.type.property-name.scss",
         "support.type.property-name.less",
-        "support.type.property-name.sass",
-        "meta.property-name.scss support.type.property-name.css",
-        "support.type.custom-property"
+        "support.type.property-name.sass"
       ],
       "settings": {
         "foreground": "#ABB2BF"
@@ -577,8 +587,10 @@
     {
       "name": "StyleSheet Property value",
       "scope": [
-        "support.constant.property-value",
-        "support.constant.color"
+        "support.constant.css",
+        "support.constant.scss",
+        "support.constant.less",
+        "support.constant.sass"
       ],
       "settings": {
         "foreground": "#98C379"
@@ -591,8 +603,6 @@
         "variable.scss",
         "variable.less",
         "variable.sass",
-        "support.other.variable.less",
-        "variable.other.readwrite.less"
       ],
       "settings": {
         "foreground": "#56B6C2"
@@ -613,7 +623,10 @@
     {
       "name": "StyleSheet Unit",
       "scope": [
-        "keyword.other.unit"
+        "unit.css",
+        "unit.scss",
+        "unit.less",
+        "unit.sass"
       ],
       "settings": {
         "foreground": "#C678DD"
@@ -622,12 +635,10 @@
     {
       "name": "StyleSheet Function",
       "scope": [
-        "source.css support.function",
-        "source.css.less support.function",
-        "source.less support.function",
-        "source.css.scss support.function",
-        "source.scss support.function",
-        "source.sass support.function"
+        "function.css",
+        "function.scss",
+        "function.less",
+        "function.sass"
       ],
       "settings": {
         "foreground": "#56B6C2"
@@ -657,7 +668,10 @@
     },
     {
       "name": "JSON Property",
-      "scope": "support.type.property-name.json",
+      "scope": [
+        "support.type.property-name.json",
+        "support.dictionary.json"
+      ],
       "settings": {
         "foreground": "#56B6C2"
       }

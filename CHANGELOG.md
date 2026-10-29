@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0 — 2026-10-29
+
+- Refresh chat, inline chat, and agent session colors using a Codex-inspired dark palette.
+- Align stylesheet token scopes with One Monokai and restore the JSON dictionary scope.
+
 ## 1.0.0 — 2026-10-29
 
 - Release Story Dark Theme 1.0.0.
