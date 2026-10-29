@@ -1,8 +1,8 @@
 {
   "name": "story-dark",
   "displayName": "Story Dark Theme",
-  "description": "A dark theme for VS Code inspired by the styles of One Monokai and One Dark Pro.",
-  "version": "1.1.0",
+  "description": "A refined dark theme for VS Code inspired by One Monokai and One Dark Pro, featuring deep graphite backgrounds, balanced contrast, and vibrant syntax highlighting.",
+  "version": "1.2.0",
   "publisher": "StoryTW",
   "license": "MIT",
   "engines": {
@@ -12,9 +12,12 @@
     "Themes"
   ],
   "keywords": [
-    "theme",
-    "dark",
-    "story"
+    "dark theme",
+    "one dark",
+    "one monokai",
+    "graphite",
+    "syntax highlighting",
+    "story dark"
   ],
   "icon": "icon.png",
   "galleryBanner": {

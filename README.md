@@ -1,6 +1,6 @@
 # Story Dark Theme
 
-A dark theme for VS Code inspired by the styles of One Monokai and One Dark Pro.
+A refined dark theme for VS Code inspired by One Monokai and One Dark Pro, featuring deep graphite backgrounds, balanced contrast, and vibrant syntax highlighting.
 
 Supports VS Code 1.143 and later. Includes TextMate syntax colors,
 a full ANSI terminal palette, and colors for Git, diffs, inline
@@ -13,7 +13,7 @@ and choose **Story Dark Theme** from **Preferences: Color Theme**.
 
 ## Install locally
 
-1. Download or build `story-dark-1.1.0.vsix`.
+1. Download or build `story-dark-1.2.0.vsix`.
 2. In VS Code, run **Extensions: Install from VSIX...** and select the file.
 3. Run **Preferences: Color Theme** and select **Story Dark Theme**.
 

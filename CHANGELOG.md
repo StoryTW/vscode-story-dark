@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 — 2026-10-29
+
+- Refine graphite backgrounds, borders, selections, and active tabs across the workbench.
+- Harmonize chat and agent surfaces with the updated editor and terminal palette.
+- Refresh the extension description and Marketplace keywords.
+
 ## 1.1.0 — 2026-10-29
 
 - Refresh chat, inline chat, and agent session colors using a Codex-inspired dark palette.
