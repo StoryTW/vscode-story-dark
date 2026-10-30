@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0 — 2026-10-30
+
+- Rebalance editor, sidebar, activity bar, and tab backgrounds for clearer workbench separation.
+- Align breadcrumbs, sticky scroll, notebooks, chat, and agent surfaces with the updated palette.
+- Strengthen diff highlights and refine inactive tab text and the terminal cursor.
+
 ## 1.2.0 — 2026-10-29
 
 - Refine graphite backgrounds, borders, selections, and active tabs across the workbench.
